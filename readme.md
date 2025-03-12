@@ -19,16 +19,16 @@ used for testing purposes not to extract the arithmatical operations. So, I have
 
 Lab7-Testing holds the Unit Testing as mentioned in the lab. But note that we only tested one endpoint **add()** with postman. Check the script area and you will find out the testing js codes there.
 
-# Locast test
+# Locust test
 
 Install locust: most probably install it will be installed globally since we are not using any virtual environment. But what to do!!
 
-   pip install locust
+      pip install locust
 
-Locast runs on the following host and port:
+Locust runs on the following host and port:
 
-   http://localhost:8089
+      http://localhost:8089
 
 Hit the url and add your application url:
 
-   http://localhost:5005
+      http://localhost:5005
